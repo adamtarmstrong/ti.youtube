@@ -1,0 +1,4 @@
+<!-- https://developers.google.com/youtube/player_parameters?playerVersion=HTML5 -->
+<Alloy>
+	<WebView id="videoPlayer" onLoad="setDefaultVideo" />
+</Alloy>

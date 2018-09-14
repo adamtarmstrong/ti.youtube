@@ -1,0 +1,11 @@
+"#videoPlayer": {
+	url: WPATH("vplayer.htm"),
+	width: Ti.UI.FILL,	//Ti.UI.SIZE,	//320,
+	height: Ti.UI.SIZE,	//190
+	top: 0,
+	left: 0,
+	backgroundColor: "#000000"
+},
+"#videoPlayer[platform=android]": {
+	//mediaPlaybackRequiresUserGesture: false
+}
