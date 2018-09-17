@@ -1,10 +1,5 @@
 var args = $.args;
-var defaultVideoId;
-if (typeof args.defaultVideoId !== 'undefined') {
-    defaultVideoId = args.defaultVideoId;
-} else {
-	defaultVideoId = "undefined";
-}
+var defaultVideoId= $.args.defaultVideoId || "undefined";
 
 //src:	https://developers.google.com/youtube/iframe_api_reference#Loading_a_Video_Player
 /*
